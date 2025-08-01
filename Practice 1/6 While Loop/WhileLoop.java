@@ -4,7 +4,7 @@ import java.util.Random;
 class WhileLoop{
     public static void main(String args[]){
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Enter The Number : ");
         int VP = input.nextInt();
 
@@ -14,7 +14,6 @@ class WhileLoop{
             i++;
         }
         System.out.println();
-
 
         // Print Randowm Numer Using while loop
         System.out.println("\nPrint Randowm Numer Using while loop");
