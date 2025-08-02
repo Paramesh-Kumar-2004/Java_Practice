@@ -15,8 +15,10 @@ class FunctionTest{
     }
 
     public static void main(String[] args){
+
         FunctionTest obj1 = new FunctionTest();
         obj1.add(4,8);
         StaticFunctionTest();
+
     }
 }
