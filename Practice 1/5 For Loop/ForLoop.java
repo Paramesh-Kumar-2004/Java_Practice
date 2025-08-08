@@ -62,5 +62,7 @@ class ForLoop{
             }
         }
         System.out.println();
+
+        input.close();
     }
 }

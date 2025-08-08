@@ -18,5 +18,7 @@ class Input{
         System.out.println("Your String : " +VP);
         System.out.println("Your Char : " +VV);
         
+        input.close();
+
     }
 }

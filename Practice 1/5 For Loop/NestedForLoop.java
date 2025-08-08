@@ -28,5 +28,7 @@ class NestedForLoop{
             System.out.println();
         }
 
+        input.close();
+
     }
 }

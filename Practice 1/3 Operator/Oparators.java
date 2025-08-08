@@ -32,5 +32,7 @@ class Operator{
         String a = "VP";
         String b = "vp";
         System.out.print(a.equals(b.toUpperCase()));
+
+        input.close();
     }
 }

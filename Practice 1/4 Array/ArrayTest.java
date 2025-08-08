@@ -54,6 +54,8 @@ class ArrayTest{
         }
         System.out.println("Array Elements : "+Arrays.toString(arr));
         System.out.println("Middle Element : "+arr[(arr.length/2)]);
+        input.close();
+
     }
 }
 
