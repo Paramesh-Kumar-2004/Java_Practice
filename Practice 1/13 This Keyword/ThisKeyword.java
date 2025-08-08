@@ -5,7 +5,7 @@ class ThisKeyword {
 
     void SetNameWithoutThis(String UserName) {
         System.out.println("Set Name Without This Keyword");
-        UserName = UserName;  // UserName it take from function's parameters.
+        // UserName = UserName;  // UserName it take from function's parameters.
         System.out.println("User Name Without This : " + UserName);
     }
 

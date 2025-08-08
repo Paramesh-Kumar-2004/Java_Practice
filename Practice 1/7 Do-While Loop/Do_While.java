@@ -20,5 +20,7 @@ class Do_While{
             num2 = input.nextInt();
         }while(num2 <=10);
 
+        input.close();
+
     }
 }

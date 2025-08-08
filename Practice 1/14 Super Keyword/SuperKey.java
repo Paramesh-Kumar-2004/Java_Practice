@@ -26,7 +26,7 @@ class SuperKey{
     public static void main(String[] args){
         System.out.println("\nUsing Super Keyword, We Can Access Variables, Functions & Pass The Parameters\n");
 
-        Son obj1 = new Son("Selvaraj");  // Justing Creating The Object For Son Class. It Call The Son Class Constructor.
+        // Son obj1 = new Son("Selvaraj");  // Justing Creating The Object For Son Class. It Call The Son Class Constructor.
 
     }
 }

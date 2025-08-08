@@ -25,6 +25,6 @@ class FinalKeyword{
 
         obj1.Info();
 
-        VP2 obj2 = new VP2();
+        // VP2 obj2 = new VP2();
     }
 }

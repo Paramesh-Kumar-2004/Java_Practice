@@ -20,13 +20,12 @@ class StatickeyWord{
         obj1.Name = "Obj1";
         obj2.Name = "Obj2";
         obj3.Name = "Obj3";
-
-        obj1.age = 22; 
+        Student.age = 22; 
 
         Student.StaticMethod(); // We Can Access The Static Key or Static Method using THe Class Name, No Need To Create A Object.
 
-        System.out.println("\nObj1 :\n Name : "+obj1.Name+", Age : "+obj1.age);
-        System.out.println("\nObj2 :\n Name : "+obj2.Name+", Age : "+obj2.age);
-        System.out.println("\nObj1 :\n Name : "+obj3.Name+", Age : "+obj3.age);
+        System.out.println("\nObj1 :\n Name : "+obj1.Name+", Age : "+Student.age);
+        System.out.println("\nObj2 :\n Name : "+obj2.Name+", Age : "+Student.age);
+        System.out.println("\nObj1 :\n Name : "+obj3.Name+", Age : "+Student.age);
     }
 }
