@@ -11,7 +11,7 @@ class Exception_Handling{
         Scanner input = new Scanner(System.in);
         
         try{
-            System.out.print("Enter The Number VP : ");
+            System.out.print("Enter String To See The Error Handler.\nEnter The Number VP : ");
             int VP = input.nextInt();
             System.out.println("VP : "+VP);
         }
@@ -19,6 +19,6 @@ class Exception_Handling{
         catch(Exception e){ // General Exception Handler For All Exception Errors.
             System.out.println("\nError : \n"+e+"\n");
         }
-        
+        input.close();
     }
 }
