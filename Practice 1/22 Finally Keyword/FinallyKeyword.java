@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 // try,catch,finally
 
-
 class FinallyKeyword{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -19,5 +18,6 @@ class FinallyKeyword{
         finally{
             System.out.println("Finally Result Is : "+VP);
         }
+        input.close();
     }
 }
