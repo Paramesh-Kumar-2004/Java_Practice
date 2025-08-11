@@ -2,31 +2,29 @@ import java.util.Scanner;
 
 // Create A Own Exception Error handling
 
-
-class Errorhandler extends Exception{
-    public Errorhandler(String msg){
+class Errorhandler extends Exception {
+    public Errorhandler(String msg) {
         super(msg);
     }
 }
 
+class CustomExceptionHandling {
+    public static void main(String[] args) {
 
-class CustomExceptionHandling{
-    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Custom Exception Handling");
 
-        try{
+        try {
             System.out.print("Enter Your Age : ");
             int Age = input.nextInt();
-            if(Age<=18){
+            if (Age <= 18) {
+                input.close();
                 throw new Errorhandler("Age Should Be Grater Than 18");
+            } else {
+                System.out.println("Age : " + Age);
             }
-            else{
-                System.out.println("Age : "+Age);
-            }
-        }        
-        catch(Exception e){
-            System.out.println("\nError : "+e+"\n");
+        } catch (Exception e) {
+            System.out.println("\nError : " + e + "\n");
         }
     }
 }
