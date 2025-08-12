@@ -1,0 +1,3 @@
+vp = 'VP'
+
+print(vp)
