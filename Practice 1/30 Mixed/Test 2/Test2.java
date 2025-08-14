@@ -17,5 +17,7 @@ class Test2{
         System.out.println("\nInt - VP : "+VP);
         System.out.println("Str - PV : "+PV);
         System.out.println("Chr - VP : "+VV);
+
+        input.close();
     }
 }
