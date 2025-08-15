@@ -1,8 +1,7 @@
 import java.util.*;
 
-
-class Input_Output{
-    public static void main(String[] args){
+class Input_Output {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Eneter The Number  : ");
@@ -15,8 +14,11 @@ class Input_Output{
 
         // input.nextLong(), input.nextFloat(), input.nextDouble()
 
-        System.out.println("Number : "+VP);
-        System.out.println("String : "+PV);
-        System.out.println("Char   : "+VV);
+        System.out.println("Number : " + VP);
+        System.out.println("String : " + PV);
+        System.out.println("Char   : " + VV);
+
+        input.close();
+
     }
 }
