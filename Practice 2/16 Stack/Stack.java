@@ -1,6 +1,5 @@
 
 
-
 class Stack{
     private int[] VP = new int[4];
     private int tos;
